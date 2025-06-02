@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    background-color: var(--Navy-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7rem 0 0 8rem;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    font-size: 1.4rem;
+    padding: 0 3rem 0 0;
+    color: var(--White);
+    font-family: 'Raleway', sans-serif;
+    transition: 0.3s;
+
+    &:hover {
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}
+
+.about-fylo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    color: var(--White);
+}
+
+.about-fylo .img-intro {
+    max-width: 45%;
+}
+
+.about-fylo .fylo-title {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 2rem;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.about-fylo .fylo-infos {
+    font-size: 1.4rem;
+    max-width: 45rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.about-fylo .btn-get-started {
+    font-size: 1.4rem;
+    padding: 1.5rem 7rem;
+    max-width: 30rem;
+    border-radius: 5rem;
+    background-color: var(--Cyan-500);
+    color: var(--White);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: var(--Teal-200);
+        font-weight: 700;
+    }
+}
+
+.fylo-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.fylo-services .services {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--White);
+}
+
+.fylo-services .services .service-title {
+    font-size: 2rem;
+    padding: 2rem 0 0 0;
+}
+
+.fylo-services .services .service-description {
+    font-size: 1.4rem;
+    max-width: 70%;
+    padding: 1rem 0 5rem 0;
+}
+
+.stay-productive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.stay-productive .img-stay-productive {
+    max-width: 40%;
+}
+
+.stay-productive .stay-productive-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    max-width: 50%;
+    color: var(--White);
+}
+
+.stay-productive .stay-productive-title {
+    font-size: 3rem;
+    max-width: 50%;
+}
+
+.stay-productive .about-stay-productive {
+    font-size: 1.4rem;
+    max-width: 85%;
+    padding: 1rem 0;
+}
+
+.stay-productive-infos .btn-how-fylo-works {
+    max-width: 15rem;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: solid transparent 1px;
+    color: var(--Cyan-500);
+    transition: 0.3s;
+
+    &::after {
+        content: url(../images/icon-arrow.svg);
+        color: var(--White);
+        vertical-align: middle;
+        padding-left: 0.5rem;
+    }
+
+    &:hover {
+        color: var(--White);
+        border-bottom: solid var(--White) 1px;
+    }
+}
+
+.user-reviews {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3.5rem;
+    color: var(--White);
+    background: url(../images/bg-quotes.png) no-repeat left top;
+}
+
+.user-reviews .review {
+    background-color: var(--Navy-800);
+    max-width: 28%;
+    font-size: 1.4rem;
+    padding: 2rem;
+    box-shadow: 1.5rem 1rem var(--Navy-850);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.review .user-infos {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.review .user-infos .user-profile-img {
+    border-radius: 50%;
+    max-width: 2rem;
+}
+
+.review .user-infos .user-name {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.user-infos .user-ocupation {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.get-access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: var(--White);
+    box-shadow: 1rem 1rem var(--Navy-950);
+    background-color: var(--Navy-850);
+    position: absolute;
+    top: 200rem;
+}
+
+.get-access-title {
+    font-size: 3rem;
+}
+
+.get-access-infos {
+    font-size: 1.4rem;
+    max-width: 75%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.submit-email .user-email {
+    width: 40rem;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 5rem;
+}
+
+.submit-email .btn-get-started {
+    font-size: 1.4rem;
+    padding: 1.5rem 4rem;
+    max-width: 25rem;
+    border-radius: 5rem;
+    background-color: var(--Cyan-500);
+    color: var(--White);
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: var(--Teal-200);
+        font-weight: 700;
+    }
+}
+
