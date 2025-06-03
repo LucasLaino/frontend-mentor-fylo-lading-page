@@ -255,29 +255,25 @@ nav .menu {
     margin-top: 35rem;
     color: var(--White);
     font-family: 'Open Sans', sans-serif;
+}
 
-    &::before {
-        content: url(../images/logo.svg);
-    }
+.footer .logo {
+    background-color: brown;
 }
 
 .footer div {
     display: flex;
     max-width: 25%;
+    display: flex;
+    gap: 2rem;
 }
 
-.footer div .logo {
-    max-width: 40%;
+.footer .icon-location {
+    height: 1.5rem;
 }
 
-.footer div .location {
+.footer div .address {
     font-size: 1.4rem;
-    padding: 2rem;
-
-    &::before {
-        vertical-align: middle;
-        padding-right: 2rem;
-    }
 }
 
 .footer .contacts .phone {
