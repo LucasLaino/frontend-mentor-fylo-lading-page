@@ -257,13 +257,15 @@ nav .menu {
     font-family: 'Open Sans', sans-serif;
 }
 
-.footer .logo {
-    background-color: brown;
+.footer div {
+    max-width: 25%;
 }
 
-.footer div {
-    display: flex;
-    max-width: 25%;
+.footer .logo {
+    padding: 2rem 0;
+}
+
+.footer .location {
     display: flex;
     gap: 2rem;
 }
