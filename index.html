@@ -78,7 +78,7 @@
         alt="illustration-stay-productive">
 
       <div class="stay-productive-infos">
-        <h2 class="stay-productive-title">Stay productive, wherever you are</h2>
+        <h2 class="stay-productive-title">Stay productive, Wherever you are</h2>
 
         <p class="about-stay-productive">Never let location be an issue when acessing your files. Fylo has you covered
           for all of your file storage
@@ -131,62 +131,84 @@
     </section>
 
     <section class="get-access">
-      <h2 class="get-access-title">Get early access today</h2>
-      <p class="get-access-infos">It only takes a minute to sign up and our free starter tier is extremely generous. If
-        you have any questions,
-        our support team would be happy to help you.</p>
+      <div class="container-get-access">
+        <h2 class="get-access-title">Get early access today</h2>
+        <p class="get-access-infos">It only takes a minute to sign up and our free starter tier is extremely generous.
+          If
+          you have any questions,
+          our support team would be happy to help you.</p>
 
-      <form class="submit-email" action="">
-        <input class="user-email" type="email" name="email" placeholder="email@example.com">
-        <button class="btn-submit-started">Get Started For Free</button>
-      </form>
+        <form class="submit-email">
+          <input class="user-email" type="email" name="email" id="user-email" placeholder="email@example.com">
+          <button class="btn-submit-started">Get Started For Free</button>
+        </form>
+      </div>
     </section>
 
     <footer class="footer">
-      <div>
-        <img src="./src/images/logo.svg" alt="logo" class="logo">
-        <section class="location">
-          <img class="icon-location" src="./src/images/icon-location.svg" alt="logo">
-          <p class="address">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, possimus distinctio
-            adipisci reiciendis</p>
-        </section>
+      <img src="./src/images/logo.svg" class="logo" alt="logo">
+
+      <div class="footer-infos">
+        <div class="location">
+          <ul>
+            <li>
+              <img src="./src/images/icon-location.svg" alt="icon-location" class="logo-location">
+            </li>
+
+            <li>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <div class="phone">
+            <img src="./src/images/icon-phone.svg" alt="icon-phone">
+            <p>+1-543-123-4567</p>
+          </div>
+
+          <div class="email">
+            <img src="./src/images/icon-email.svg" alt="icon-email">
+            <p>example@fylo.com</p>
+          </div>
+        </div>
+
+        <table>
+          <tr>
+            <td>About Us</td>
+            <td>Contact Us</td>
+          </tr>
+          <tr>
+            <td>Jobs</td>
+            <td>Terms</td>
+          </tr>
+          <tr>
+            <td>Press</td>
+            <td>Privacy</td>
+          </tr>
+          <tr>
+            <td>Blog</td>
+          </tr>
+        </table>
+
+        <div class="social">
+          <ul>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+        </div>
       </div>
 
-      <section class="contacts">
-        <p class="phone">+1-543-123-4567</p>
-        <p class="mail">example@fylo.com</p>
-      </section>
-
-      <table>
-        <tr>
-          <td>About Us</td>
-          <td>Contact Us</td>
-        </tr>
-        <tr>
-          <td>Jobs</td>
-          <td>Terms</td>
-        </tr>
-        <tr>
-          <td>Press</td>
-          <td>Privacy</td>
-        </tr>
-        <tr>
-          <td>Blog</td>
-        </tr>
-      </table>
-
-      <section class="socials">
-        <ul>
-          <li>
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          </li>
-          <li><a href="#"><i class="fa-brands fa-twitter"></i></a>
-          </li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </section>
+      <div class="final-credits">
+        <div>
+          <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://www.linkedin.com/in/lucaslaino/" target="_blank">Lucas Laino</a>.</p>
+        </div>
+      </div>
     </footer>
+
 </body>
 
 </html>
