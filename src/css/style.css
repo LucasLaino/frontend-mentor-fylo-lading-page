@@ -196,12 +196,11 @@ nav .menu {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .container-get-access {
     max-width: 900px;
-    padding: 4rem;
+    padding: 4rem 2rem;
     display: flex;
     border-radius: 5px;
     color: var(--White);
@@ -220,19 +219,20 @@ nav .menu {
 .get-access-infos {
     max-width: 70%;
     font-size: 1.4rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
-.submit-email .user-email {
+.submit-email .input-email {
     width: 40rem;
-    margin: 2rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 5rem;
 }
 
 .submit-email .btn-submit-started {
     font-size: 1.4rem;
-    padding: 1.5rem 4rem;
+    margin-left: 1rem;
+    padding: 2rem;
     max-width: 25rem;
     border-radius: 5rem;
     background-color: var(--Cyan-500);
@@ -333,4 +333,14 @@ nav .menu {
         text-decoration: underline var(--White);
         color: white;
     }
+}
+
+.error {
+    color: var(--Red-500);
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.error-hidden {
+    display: none;
 }
