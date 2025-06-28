@@ -1,0 +1,27 @@
+.ServicesSection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: var(--White);
+    justify-content: center;
+}
+
+.Services {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ServiceTitle {
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ServiceDescription {
+    max-width: 45%;
+    font-size: 1.4rem;
+    padding-bottom: 40px;
+    font-family: 'Open-Sans', sans-serif;
+}
