@@ -1,7 +1,7 @@
 import './App.css'
-import Header from './layouts/Header/header.tsx'
-import IntroSection from './layouts/IntroSection/IntroSection.tsx'
-import FyloServices from './layouts/FyloServices/FyloServices.tsx'
+import Header from './components/Header/header.tsx'
+import IntroSection from './components/IntroSection/IntroSection.tsx'
+import FyloServices from './components/FyloServices/FyloServices.tsx'
 
 function App() {
 
