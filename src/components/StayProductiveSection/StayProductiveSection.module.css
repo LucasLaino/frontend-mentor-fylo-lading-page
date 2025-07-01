@@ -1,0 +1,42 @@
+.StayProductiveSection {
+    gap: 50px;
+    display: flex;
+    color: var(--White);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Navy-950);
+}
+
+.StayProductiveInfos {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.StayProductiveTitle {
+    max-width: 255px;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.AboutStayProductive {
+    max-width: 450px;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.BtnSeeHowFyloWorks {
+    max-width: 150px;
+    transition: 0.3s;
+    font-size: 1.4rem;
+    color: var(--Teal-200);
+    border-bottom: solid transparent 1px;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../../assets/images/icon-arrow.svg)  no-repeat right center;
+
+    &:hover {
+        color: var(--White);
+        border-bottom: solid var(--White) 1px;
+        background:url(../../assets/images/icon-arrow-white.svg)  no-repeat right center;
+    }
+}
