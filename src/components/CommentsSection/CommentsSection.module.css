@@ -1,0 +1,46 @@
+.CommentsMainSection {
+    background-color: var(--Navy-900);
+}
+
+.bgQuotes {
+    margin-left: 50px;
+}
+
+.CommentsSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.CommentCard {
+    padding: 20px;
+    font-size: 1.2rem;
+    color: var(--White);
+    background-color: var(--Navy-800);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 10px 10px var(--Navy-850);
+}
+
+.UserMessage {
+    max-width: 300px;
+    padding-bottom: 15px;
+}
+
+.UserProfile {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.UserProfileImg {
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+.UserName {
+    font-size: 1.2rem;
+}
+
+.UserOcupation {
+    font-size: 1rem;
+}
