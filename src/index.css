@@ -24,5 +24,5 @@
 html {
   /* remover o font-size: 62.5% e ajustar os tamanhos de fontes */
   font-size: 62.5%;
-  background: var(--Navy-850) url(./assets/images/bg-curvy-desktop.svg) no-repeat bottom;
+  background-color: var(--Navy-850);
 }
