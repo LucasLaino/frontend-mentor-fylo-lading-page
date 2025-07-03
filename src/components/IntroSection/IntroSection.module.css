@@ -27,6 +27,12 @@
     padding: 20px 70px;
     color: var(--White);
     border-radius: 50px;
+    transition: 0.3s ease-out;
     font-family: 'Open Sans', sans-serif;
-    background: linear-gradient(to right, var(--Cyan-500), var(--Teal-200));
+    background: linear-gradient(to left, var(--Cyan-500), var(--Teal-200));
+
+    &:hover {
+        background: linear-gradient(to right, var(--Teal-200));
+        font-weight: 700;
+    }
 }
