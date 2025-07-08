@@ -1,0 +1,27 @@
+.EmailForm {
+    display: flex;
+    gap: 20px;
+}
+
+.InputEmail {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.BtnGetStarted {
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: var(--White);
+    border-radius: 50px;
+    transition: 0.3s ease-out;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to left, var(--Cyan-500), var(--Teal-200));
+
+    &:hover {
+        background: linear-gradient(to right, var(--Teal-200));
+        font-weight: 700;
+    }
+}
