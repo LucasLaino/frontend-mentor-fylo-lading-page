@@ -1,16 +1,18 @@
+import styles from './Footer.module.css'
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
+
 function Footer() {
     return (
         <>
-            <footer>
-                <img src="./src/images/logo.svg" alt="logo" />
+            <footer className={styles.Footer}>
+                <img src="./src/assets/images/logo.svg" alt="logo" className={styles.Logo} />
 
-                <section>
-                    <div>
+                <section className={styles.FooterInfos}>
+                    <div className={styles.Location}>
                         <ul>
                             <li>
-                                <img src="./src/images/icon-location.svg" alt="icon-location" />
+                                <img src="./src/assets/images/icon-location.svg" alt="icon-location" className={styles.IconLocation} />
                             </li>
-
                             <li>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                     dolore magna aliqua</p>
@@ -18,19 +20,19 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <div>
-                        <div>
-                            <img src="./src/images/icon-phone.svg" alt="icon-phone" />
+                    <section className={styles.Contatct}>
+                        <div className={styles.Phone}>
+                            <img src="./src/assets/images/icon-phone.svg" alt="icon-phone" />
                             <p>+1-543-123-4567</p>
                         </div>
 
-                        <div>
-                            <img src="./src/images/icon-email.svg" alt="icon-email" />
+                        <div className={styles.Email}>
+                            <img src="./src/assets/images/icon-email.svg" alt="icon-email" />
                             <p>example@fylo.com</p>
                         </div>
-                    </div>
+                    </section>
 
-                    <table>
+                    <table className={styles.Fyloinfos}>
                         <tr>
                             <td>About Us</td>
                             <td>Contact Us</td>
@@ -48,16 +50,16 @@ function Footer() {
                         </tr>
                     </table>
 
-                    <section >
+                    <section className={styles.Socials}>
                         <ul>
-                            <li><i class="fa-brands fa-facebook-f"></i></li>
-                            <li><i class="fa-brands fa-twitter"></i></li>
-                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><FaFacebookF /></li>
+                            <li><FaTwitter /></li>
+                            <li><FaInstagram /></li>
                         </ul>
                     </section>
                 </section>
 
-                <div>
+                <div className={styles.FinalCredits}>
                     <div>
                         <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
                             Coded by <a href="https://www.linkedin.com/in/lucaslaino/" target="_blank">Lucas Laino</a>.</p>
