@@ -1,19 +1,20 @@
 .header {
     display: flex;
-    align-items: center;
     padding: 50px;
+    align-items: center;
     justify-content: space-between;
+     background-color: var(--Navy-850);
 }
 
 .nav {
+    gap: 20px;
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 .navOptions {
-    font-size: 1.4rem;
     transition: 0.3s;
+    font-size: 1.4rem;
     color: var(--White);
     font-family: 'Raleway', sans-serif;
 
