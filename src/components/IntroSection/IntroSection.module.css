@@ -1,12 +1,14 @@
 .IntroSection {
     gap: 20px;
     display: flex;
+    padding: 200px 0;
     text-align: center;
     align-items: center;
     color: var(--White);
     flex-direction: column;
     justify-content: center;
-    background-color: var(--Navy-850);
+    background-size: contain;
+    background: url(../../assets/images/bg-curvy-desktop.svg) no-repeat center bottom var(--Navy-850);
 }
 
 .IntroSectionTitle {
