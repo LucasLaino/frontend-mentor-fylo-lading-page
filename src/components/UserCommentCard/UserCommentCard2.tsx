@@ -10,7 +10,7 @@ function UserCommentCard() {
                     <img src="./src/assets/images/profile-2.jpg" alt="profile-2-image" className={styles.UserProfileImg}/>
 
                     <div>
-                        <h4>Satish Patel</h4>
+                        <h4>Bruce McKenzie</h4>
                         <p className={styles.UserOcupation}>Founder & CEO, Huddle</p>
                     </div>
                 </div>

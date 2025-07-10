@@ -3,7 +3,6 @@ import UserCommentCard1 from '../UserCommentCard/UserCommentCard1'
 import UserCommentCard2 from '../UserCommentCard/UserCommentCard2'
 import UserCommentCard3 from '../UserCommentCard/UserCommentCard3'
 
-// Criar um componente separado para listar os comentários. O código repete muito
 function CommentsSection() {
     return (
         <section className={styles.CommentsMainSection}>
