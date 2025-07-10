@@ -29,7 +29,7 @@
     transition: 0.3s;
     font-size: 1.4rem;
     color: var(--Teal-200);
-    border-bottom: solid transparent 1px;
+    border-bottom: solid var(--Teal-200) 1px;
     font-family: 'Open Sans', sans-serif;
     background: url(../../assets/images/icon-arrow.svg)  no-repeat right center;
 
