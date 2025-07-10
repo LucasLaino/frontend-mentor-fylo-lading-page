@@ -1,0 +1,29 @@
+.CommentCard {
+    gap: 20px;
+    display: flex;
+    padding: 25px 30px;
+    color: var(--White);
+    flex-direction: column;
+    background-color: var(--Navy-800);
+    box-shadow: 10px 5px var(--Navy-850);
+}
+
+.UserComment {
+    font-size: 14px;
+    max-width: 300px;
+}
+
+.UserInfos {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.UserProfileImg {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.UserOcupation {
+    font-size: 8px;
+}
