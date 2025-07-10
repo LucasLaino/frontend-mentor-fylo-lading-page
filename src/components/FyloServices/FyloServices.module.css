@@ -3,7 +3,7 @@
     text-align: center;
     align-items: center;
     color: var(--White);
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .Services {
@@ -20,7 +20,7 @@
 }
 
 .ServiceDescription {
-    max-width: 45%;
+    max-width: 350px;
     font-size: 1.4rem;
     padding-bottom: 40px;
     font-family: 'Open-Sans', sans-serif;

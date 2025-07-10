@@ -6,7 +6,7 @@ function FyloServices() {
             <div className={styles.Services}>
                 <img src="./src/assets/images/icon-access-anywhere.svg" alt="icon-access-anywhere" />
 
-                <h3 className={styles.ServiceTitle}>Access your files, anywhre</h3>
+                <h3 className={styles.ServiceTitle}>Access your files, anywhere</h3>
                 <p className={styles.ServiceDescription}>The ability to use a smartphone, tablet, or computer to access your account means
                     your files follow you
                     everywhere.</p>
