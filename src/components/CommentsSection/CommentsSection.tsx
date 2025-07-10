@@ -1,6 +1,7 @@
 import styles from './CommentsSection.module.css'
 import UserCommentCard1 from '../UserCommentCard/UserCommentCard1'
 import UserCommentCard2 from '../UserCommentCard/UserCommentCard2'
+import UserCommentCard3 from '../UserCommentCard/UserCommentCard3'
 
 // Criar um componente separado para listar os comentários. O código repete muito
 function CommentsSection() {
@@ -11,6 +12,7 @@ function CommentsSection() {
             <section className={styles.CommentsSection}>
                 <UserCommentCard1 />
                 <UserCommentCard2 />
+                <UserCommentCard3 />
             </section>
         </section>
     )
