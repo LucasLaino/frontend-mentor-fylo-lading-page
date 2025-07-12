@@ -1,4 +1,5 @@
 .StayProductiveSection {
+    /* margin-top: ; */
     gap: 50px;
     display: flex;
     color: var(--White);
@@ -14,20 +15,20 @@
 
 .StayProductiveTitle {
     max-width: 255px;
-    font-size: 3rem;
+    font-size: 30px;
     font-family: 'Raleway', sans-serif;
 }
 
 .AboutStayProductive {
     max-width: 450px;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
 
 .BtnSeeHowFyloWorks {
     max-width: 150px;
     transition: 0.3s;
-    font-size: 1.4rem;
+    font-size: 14px;
     color: var(--Teal-200);
     border-bottom: solid var(--Teal-200) 1px;
     font-family: 'Open Sans', sans-serif;
