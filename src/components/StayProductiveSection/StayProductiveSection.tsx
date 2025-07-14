@@ -3,7 +3,7 @@ import styles from './StayProductiveSection.module.css'
 function StayProductiveSection() {
     return (
         <section className={styles.StayProductiveSection}>
-            <img src="./src/assets/images/illustration-stay-productive.png" alt="illustration-stay-productive" />
+            <img src="./src/assets/images/illustration-stay-productive.png" alt="illustration-stay-productive" className={styles.illustrationStayProductive}/>
 
             <div className={styles.StayProductiveInfos}>
                 <h2 className={styles.StayProductiveTitle}>Stay Productive, Wherever you are</h2>

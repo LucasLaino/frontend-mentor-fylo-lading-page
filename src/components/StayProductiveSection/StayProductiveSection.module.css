@@ -40,3 +40,43 @@
         background:url(../../assets/images/icon-arrow-white.svg)  no-repeat right center;
     }
 }
+
+@media (min-width: 360px) and (max-width: 430px) {   
+    .StayProductiveSection {
+        flex-direction: column;
+    }
+
+    .illustrationStayProductive {
+        max-width: 80%;
+    }
+
+    .StayProductiveInfos {
+        padding: 0 25px;
+    }
+
+    .StayProductiveTitle {
+        font-size: 18px;
+        max-width: 400px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 820px) {
+    .StayProductiveSection {
+        flex-direction: column;
+    }
+
+    .illustrationStayProductive {
+        max-width: 80%;
+    }
+
+    .StayProductiveInfos {
+        padding: 0 10px;
+    }
+
+    .StayProductiveTitle {
+        font-size: 22px;
+        max-width: 400px;
+        text-align: center;
+    }
+}
