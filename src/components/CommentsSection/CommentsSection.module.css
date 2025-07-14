@@ -12,3 +12,28 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media (min-width: 360px) and (max-width: 430px) {   
+    .bgQuotes {
+        width: 30px;
+    }
+    
+    .CommentsSection {
+        gap: 30px;
+        padding: 0 40px;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 820px) {
+    .bgQuotes {
+        width: 40px;
+        margin-left: 100px;
+    }
+    
+    .CommentsSection {
+        gap: 30px;
+        padding: 0 40px;
+        flex-direction: column;
+    }
+}
