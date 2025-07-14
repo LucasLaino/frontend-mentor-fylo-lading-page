@@ -25,3 +25,21 @@
     padding-bottom: 40px;
     font-family: 'Open-Sans', sans-serif;
 }
+
+
+@media (min-width: 360px) and (max-width: 430px) {   
+    .ServicesSection {
+        flex-direction: column;
+    }
+
+    .ServiceDescription {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 800px) {
+    .ServicesSection {
+        flex-direction: column;
+        padding: 50px;
+    }
+}
