@@ -1,10 +1,10 @@
-import styles from './IntroSection.module.css'
+import styles from './introSection.module.css'
 
-function IntroSection() {
+function introSection() {
     return (
-        <section className={styles.IntroSection}>
-            <img src="./src/assets/images/illustration-intro.png" alt="illustration-intro" />
-            <h1 className={styles.IntroSectionTitle}>All your files in one secure location, acessible anywhere.</h1>
+        <section className={styles.introSection}>
+            <img src="./src/assets/images/illustration-intro.png" alt="illustration-intro" className={styles.illustrationIntro}/>
+            <h1 className={styles.introSectionTitle}>All your files in one secure location, acessible anywhere.</h1>
             <p className={styles.AboutFylo}>fylo stores all your most important files in one secure location. Access them wherever you
                 need, share and collaborate with friends family, and co-workers.</p>
 
@@ -13,4 +13,4 @@ function IntroSection() {
     )
 }
 
-export default IntroSection
+export default introSection
