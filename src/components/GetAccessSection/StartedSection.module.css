@@ -31,3 +31,13 @@
     font-size: 14px;
     text-align: center;
 }
+
+@media (min-width: 360px) and (max-width: 430px) {   
+    .ContainerGetAccess {
+        
+    }
+}
+
+@media (min-width: 525px) and (max-width: 820px) {
+
+}
