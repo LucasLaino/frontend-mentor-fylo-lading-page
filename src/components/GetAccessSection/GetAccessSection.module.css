@@ -27,14 +27,22 @@
 }
 
 .SignUpInfos {
-    max-width: 70%;
+    /* max-width: 70%; */
     font-size: 14px;
     text-align: center;
 }
 
 @media (min-width: 360px) and (max-width: 430px) {   
     .ContainerGetAccess {
-        
+        max-width: 330px;
+    }
+
+    .GetAccessTitle {
+        font-size: 20px;
+    }
+
+    .SignUpInfos {
+        width: 280px;
     }
 }
 

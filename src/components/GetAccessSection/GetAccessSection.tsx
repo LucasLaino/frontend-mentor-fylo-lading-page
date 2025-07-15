@@ -1,4 +1,4 @@
-import styles from './StartedSection.module.css'
+import styles from './GetAccessSection.module.css'
 import EmailForm from '../../schemas/EmailForm'
 
 function GetAccessSection() {
