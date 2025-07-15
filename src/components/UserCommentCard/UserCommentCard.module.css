@@ -5,7 +5,7 @@
     color: var(--White);
     flex-direction: column;
     background-color: var(--Navy-800);
-    box-shadow: 10px 5px var(--Navy-850);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .UserComment {
