@@ -30,20 +30,21 @@ const EmailForm: React.FC = () => {
   }
 
   return (
-      <form onSubmit={handleSubmit(onSubmit)} className={styles.EmailForm}>
+    <form onSubmit={handleSubmit(onSubmit)} className={styles.EmailForm}>
+      <div className={styles.inputContainer}>
         <input
           type="email"
           id="email"
           {...register("email")}
           placeholder="exemple@exemple.com"
-          className={styles.InputEmail}
+          className={styles.inputEmail}
         />
         {errors.email && (
-          <p style={{ color: "red" }}>{errors.email.message}</p>
+          <p className={styles.errorMessage}>{errors.email.message}</p>
         )}
-
-        <button type="submit" className={styles.BtnGetStarted}>Get Started For Free</button>
-      </form>
+      </div>
+      <button type="submit" className={styles.BtnGetStarted}>Get Started For Free</button>
+    </form>
   )
 }
 
