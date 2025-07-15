@@ -33,3 +33,19 @@
         font-weight: 700;
     }
 }
+
+
+@media (min-width: 360px) and (max-width: 430px) {   
+    .EmailForm {
+        flex-direction: column;
+    }
+
+    .inputEmail {
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    .SignUpInfos {
+        width: 280px;
+    }
+}
