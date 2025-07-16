@@ -22,7 +22,8 @@
     margin: 4px 15px 0 0;
 }
 
-.Phone, .Email {
+.Phone,
+.Email {
     display: flex;
     align-content: center;
     gap: 20px;
@@ -38,7 +39,7 @@
 .fyloInfos ul li {
     transition: 0.3s ease-out;
 
-    &:hover{
+    &:hover {
         font-weight: 700;
     }
 }
@@ -77,5 +78,90 @@
         color: white;
         transition: 0.2s ease;
         text-decoration: underline var(--White);
+    }
+}
+
+@media (min-width: 360px) and (max-width: 430px) {
+    .Footer {
+        padding: 200px 0 50px 0;
+    }
+
+    .Logo {
+        padding-left: 40px;
+    }
+
+    .FooterInfos {
+        flex-direction: column;
+    }
+
+    .Location {
+        padding-left: 30px;
+    }
+
+    .Location ul {
+        max-width: 250px;
+    }
+
+    .Contatct {
+        padding-left: 30px;
+    }
+
+    .fyloInfos {
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .Socials {
+        gap: 10px;
+        display: flex;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    .FinalCredits {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 525px) and (max-width: 800px) {
+    .Footer {
+        padding: 200px 0 50px 0;
+    }
+
+    .Logo {
+        padding-left: 50px;
+    }
+
+    .FooterInfos {
+        flex-direction: column;
+    }
+
+    .Location {
+        padding-left: 30px;
+    }
+
+    .Location ul {
+        max-width: 250px;
+    }
+
+    .Contatct {
+        padding-left: 30px;
+    }
+
+    .fyloInfos {
+        gap: 20px;
+        display: flex;
+        padding: 30px;
+    }
+
+    .Socials {
+        display: flex;
+        align-self: center;
+        padding-bottom: 20px;
+    }
+
+    .FinalCredits {
+        font-size: 10px;
     }
 }
