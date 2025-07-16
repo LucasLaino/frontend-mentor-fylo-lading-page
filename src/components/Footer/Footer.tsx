@@ -32,23 +32,20 @@ function Footer() {
                         </div>
                     </section>
 
-                    <table className={styles.Fyloinfos}>
-                        <tr>
-                            <td>About Us</td>
-                            <td>Contact Us</td>
-                        </tr>
-                        <tr>
-                            <td>Jobs</td>
-                            <td>Terms</td>
-                        </tr>
-                        <tr>
-                            <td>Press</td>
-                            <td>Privacy</td>
-                        </tr>
-                        <tr>
-                            <td>Blog</td>
-                        </tr>
-                    </table>
+                    <section className={styles.fyloInfos}>
+                        <ul>
+                            <li>About Us</li>
+                            <li>jobs</li>
+                            <li>Press</li>
+                            <li>Blog</li>
+                        </ul>
+
+                        <ul>
+                            <li>Contact Us</li>
+                            <li>Terms</li>
+                            <li>Privacy</li>
+                        </ul>
+                    </section>
 
                     <section className={styles.Socials}>
                         <ul>

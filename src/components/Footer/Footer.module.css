@@ -29,13 +29,17 @@
     margin: 20px 0;
 }
 
-.Fyloinfos tr td {
-    padding: 5px 20px;
+.fyloInfos {
+    gap: 50px;
+    line-height: 30px;
+    display: flex;
+}
+
+.fyloInfos ul li {
     transition: 0.3s ease-out;
 
-    &:hover {
+    &:hover{
         font-weight: 700;
-        cursor: pointer;
     }
 }
 
@@ -51,13 +55,13 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--White);
     transition: 0.3s ease-out;
+    border: 1px solid var(--White);
 
     &:hover {
+        cursor: pointer;
         color: var(--Teal-200);
         border: 1px solid var(--Teal-200);
-        cursor: pointer;
     }
 }
 
@@ -70,8 +74,8 @@
     color: var(--Cyan-500);
 
     &:hover {
+        color: white;
         transition: 0.2s ease;
         text-decoration: underline var(--White);
-        color: white;
     }
 }
