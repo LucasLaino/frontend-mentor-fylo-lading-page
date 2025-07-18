@@ -12,21 +12,21 @@
 }
 
 .introSectionTitle {
-    max-width: 600px;
     font-size: 30px;
+    max-width: 600px;
     font-family: 'Raleway', sans-serif;
 }
 
-.AboutFylo {
-    max-width: 430px;
+.aboutFylo {
     font-size: 14px;
+    max-width: 430px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.BtnGetStarted {
+.btnGetStarted {
+    font-size: 14px;
     font-weight: 500;
     transition: 0.3s;
-    font-size: 14px;
     padding: 15px 90px;
     color: var(--White);
     border-radius: 50px;
@@ -35,8 +35,8 @@
     background: linear-gradient(to left, var(--Cyan-500), var(--Teal-200));
 
     &:hover {
-        background: linear-gradient(to right, var(--Teal-200));
         font-weight: 700;
+        background: linear-gradient(to right, var(--Teal-200));
     }
 }
 
@@ -56,11 +56,11 @@
         font-size: 25px;
     }
 
-    .AboutFylo {
+    .aboutFylo {
         max-width: 300px;
     }
 
-    .BtnGetStarted {
+    .btnGetStarted {
         padding: 15px 70px;
     }
 }
@@ -76,7 +76,7 @@
         max-width: 100%;
     }
 
-    .BtnGetStarted {
+    .btnGetStarted {
         padding: 15px 70px;
     }
 }

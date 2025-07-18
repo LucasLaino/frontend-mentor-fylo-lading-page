@@ -1,4 +1,4 @@
-.CommentCard {
+.commentCard {
     gap: 20px;
     display: flex;
     padding: 25px 30px;
@@ -9,22 +9,26 @@
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
-.UserComment {
+.userComment {
     font-size: 14px;
     max-width: 300px;
 }
 
-.UserInfos {
+.userInfos {
     gap: 10px;
     display: flex;
     align-items: center;
 }
 
-.UserProfileImg {
+.userProfileImg {
     width: 30px;
     border-radius: 50%;
 }
 
-.UserOcupation {
+.userName {
+    font-size: 12px;
+}
+
+.userPosition {
     font-size: 8px;
 }

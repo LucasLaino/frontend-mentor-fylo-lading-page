@@ -1,18 +1,26 @@
 import styles from './CommentsSection.module.css'
-import UserCommentCard1 from '../UserCommentCard/UserCommentCard1'
-import UserCommentCard2 from '../UserCommentCard/UserCommentCard2'
-import UserCommentCard3 from '../UserCommentCard/UserCommentCard3'
+import { Card } from '../Card/Card'
+import { cardsInfo } from '../../data/cards-info'
 
 function CommentsSection() {
     return (
-        <section className={styles.CommentsMainSection}>
+        <section className={styles.commentsMainSection}>
             <img src="./src/assets/images/bg-quotes.png" alt="bg-quotes" className={styles.bgQuotes} />
 
-        {/* Adicionar props aos cards para diminuir o código */}
-            <section className={styles.CommentsSection}>
-                <UserCommentCard1 />
-                <UserCommentCard2 />
-                <UserCommentCard3 />
+            <section className={styles.commentsSection}>
+                {
+                    cardsInfo.map((card) => {
+                        return (
+                            <Card
+                                key={card.userName}
+                                userComment={card.userComment}
+                                userProfileImg={card.userProfileImg}
+                                userName={card.userName}
+                                userPosition={card.UserPosition}
+                            />
+                        )
+                    })
+                }
             </section>
         </section>
     )
