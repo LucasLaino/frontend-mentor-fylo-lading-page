@@ -4,14 +4,14 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 function Footer() {
     return (
         <>
-            <footer className={styles.Footer}>
-                <img src="./src/assets/images/logo.svg" alt="logo" className={styles.Logo} />
+            <footer className={styles.footer}>
+                <img src="./src/assets/images/logo.svg" alt="logo" className={styles.logo} />
 
                 <section className={styles.FooterInfos}>
                     <div className={styles.Location}>
                         <ul>
                             <li>
-                                <img src="./src/assets/images/icon-location.svg" alt="icon-location" className={styles.IconLocation} />
+                                <img src="./src/assets/images/icon-location.svg" alt="icon-location" className={styles.iconLocation} />
                             </li>
                             <li>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -20,13 +20,13 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <section className={styles.Contatct}>
-                        <div className={styles.Phone}>
+                    <section className={styles.contatct}>
+                        <div className={styles.phone}>
                             <img src="./src/assets/images/icon-phone.svg" alt="icon-phone" />
                             <p>+1-543-123-4567</p>
                         </div>
 
-                        <div className={styles.Email}>
+                        <div className={styles.email}>
                             <img src="./src/assets/images/icon-email.svg" alt="icon-email" />
                             <p>example@fylo.com</p>
                         </div>
@@ -47,7 +47,7 @@ function Footer() {
                         </ul>
                     </section>
 
-                    <section className={styles.Socials}>
+                    <section className={styles.socials}>
                         <ul>
                             <li><FaFacebookF /></li>
                             <li><FaTwitter /></li>
@@ -56,7 +56,7 @@ function Footer() {
                     </section>
                 </section>
 
-                <div className={styles.FinalCredits}>
+                <div className={styles.finalCredits}>
                     <div>
                         <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
                             Coded by <a href="https://www.linkedin.com/in/lucaslaino/" target="_blank">Lucas Laino</a>.</p>

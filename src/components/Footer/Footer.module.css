@@ -1,4 +1,4 @@
-.Footer {
+.footer {
     font-size: 12px;
     color: var(--White);
     padding: 200px 100px 50px 70px;
@@ -6,24 +6,24 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.FooterInfos {
+.footerInfos {
     display: flex;
     align-items: first baseline;
     justify-content: space-between;
     padding: 50px 0;
 }
 
-.Location ul {
+.location ul {
     display: flex;
     width: 400px;
 }
 
-.IconLocation {
+.iconLocation {
     margin: 4px 15px 0 0;
 }
 
-.Phone,
-.Email {
+.phone,
+.email {
     display: flex;
     align-content: center;
     gap: 20px;
@@ -44,12 +44,12 @@
     }
 }
 
-.Socials ul {
+.socials ul {
     display: flex;
     gap: 30px;
 }
 
-.Socials ul li {
+.socials ul li {
     width: 30px;
     height: 30px;
     display: flex;
@@ -66,12 +66,12 @@
     }
 }
 
-.FinalCredits {
+.finalCredits {
     text-align: center;
     color: var(--White);
 }
 
-.FinalCredits a {
+.finalCredits a {
     color: var(--Cyan-500);
 
     &:hover {
@@ -82,27 +82,27 @@
 }
 
 @media (min-width: 360px) and (max-width: 430px) {
-    .Footer {
+    .footer {
         padding: 200px 0 50px 0;
     }
 
-    .Logo {
+    .logo {
         padding-left: 40px;
     }
 
-    .FooterInfos {
+    .ooterInfos {
         flex-direction: column;
     }
 
-    .Location {
+    .location {
         padding-left: 30px;
     }
 
-    .Location ul {
+    .location ul {
         max-width: 250px;
     }
 
-    .Contatct {
+    .contatct {
         padding-left: 30px;
     }
 
@@ -112,40 +112,40 @@
         flex-direction: column;
     }
 
-    .Socials {
+    .socials {
         gap: 10px;
         display: flex;
         align-self: center;
         padding-bottom: 20px;
     }
 
-    .FinalCredits {
+    .finalCredits {
         font-size: 10px;
     }
 }
 
 @media (min-width: 525px) and (max-width: 800px) {
-    .Footer {
+    .footer {
         padding: 200px 0 50px 0;
     }
 
-    .Logo {
+    .logo {
         padding-left: 50px;
     }
 
-    .FooterInfos {
+    .footerInfos {
         flex-direction: column;
     }
 
-    .Location {
+    .location {
         padding-left: 30px;
     }
 
-    .Location ul {
+    .location ul {
         max-width: 250px;
     }
 
-    .Contatct {
+    .contatct {
         padding-left: 30px;
     }
 
@@ -155,13 +155,13 @@
         padding: 30px;
     }
 
-    .Socials {
+    .socials {
         display: flex;
         align-self: center;
         padding-bottom: 20px;
     }
 
-    .FinalCredits {
+    .finalCredits {
         font-size: 12px;
     }
 }
