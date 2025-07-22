@@ -1,17 +1,12 @@
 .servicesSection {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     color: var(--White);
     justify-content: space-evenly;
 }
 
 .services {
-    display: flex;
     text-align: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .serviceTitle {
@@ -21,12 +16,11 @@
 }
 
 .serviceDescription {
-    max-width: 350px;
     font-size: 14px;
+    max-width: 350px;
     padding-bottom: 40px;
     font-family: 'Open-Sans', sans-serif;
 }
-
 
 @media (min-width: 360px) and (max-width: 430px) {   
     .servicesSection {

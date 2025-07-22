@@ -3,20 +3,20 @@ import styles from './FyloServicesSection.module.css'
 function FyloServicesSection() {
     return (
         <section className={styles.servicesSection}>
-           <div className={styles.services}>
+            <div className={styles.services}>
                 <img src="./src/assets/images/icon-access-anywhere.svg" alt="icon-access-anywhere" />
 
                 <h3 className={styles.serviceTitle}>Access your files, anywhere</h3>
                 <p className={styles.serviceDescription}>The ability to use a smartphone, tablet, or computer to access your account means
                     your files follow you
                     everywhere.</p>
-                
+
                 <img src="./src/assets/images/icon-security.svg" alt="icon-security" />
 
                 <h3 className={styles.serviceTitle}>Security you can trust</h3>
                 <p className={styles.serviceDescription}>2-factor authentication and user-controlled encryption are just couple of the
                     security features we allow to
-                    help secure your files.</p>               
+                    help secure your files.</p>
             </div>
 
             <div className={styles.services}>

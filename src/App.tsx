@@ -1,4 +1,4 @@
-import Header from './components/Header/header.tsx'
+import Header from './components/Header/Header.tsx'
 import IntroSection from './components/IntroSection/IntroSection.tsx'
 import FyloServicesSection from './components/FyloServicesSection/FyloServicesSection.tsx'
 import StayProductiveSection from './components/StayProductiveSection/StayProductiveSection.tsx'
