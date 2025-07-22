@@ -1,4 +1,4 @@
-import styles from './introSection.module.css'
+import styles from './IntroSection.module.css'
 
 function introSection() {
     return (
