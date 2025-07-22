@@ -7,8 +7,8 @@
     padding: 0 0 150px 0;
     flex-direction: column;
     justify-content: center;
+    background: var(--Navy-850) url(../../assets/images/bg-curvy-desktop.svg) bottom center no-repeat;
     background-size: contain;
-    background: url(../../assets/images/bg-curvy-desktop.svg) no-repeat center bottom var(--Navy-850);
 }
 
 .introSectionTitle {

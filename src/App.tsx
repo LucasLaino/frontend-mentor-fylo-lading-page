@@ -1,8 +1,8 @@
 import Header from './components/Header/header.tsx'
 import IntroSection from './components/IntroSection/IntroSection.tsx'
-import FyloServices from './components/FyloServices/FyloServices.tsx'
+import FyloServicesSection from './components/FyloServicesSection/FyloServicesSection.tsx'
 import StayProductiveSection from './components/StayProductiveSection/StayProductiveSection.tsx'
-import UserComments from './components/CommentsSection/CommentsSection.tsx'
+import CommentsSection from './components/CommentsSection/CommentsSection.tsx'
 import GetAccessSection from './components/GetAccessSection/GetAccessSection.tsx'
 import Footer from './components/Footer/Footer.tsx'
 
@@ -12,9 +12,9 @@ function App() {
     <>
       <Header />
       <IntroSection />
-      <FyloServices />
+      <FyloServicesSection />
       <StayProductiveSection />
-      <UserComments />
+      <CommentsSection />
       <GetAccessSection />
       <Footer />
     </>

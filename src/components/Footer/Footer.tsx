@@ -7,8 +7,8 @@ function Footer() {
             <footer className={styles.footer}>
                 <img src="./src/assets/images/logo.svg" alt="logo" className={styles.logo} />
 
-                <section className={styles.FooterInfos}>
-                    <div className={styles.Location}>
+                <section className={styles.footerInfos}>
+                    <div className={styles.location}>
                         <ul>
                             <li>
                                 <img src="./src/assets/images/icon-location.svg" alt="icon-location" className={styles.iconLocation} />
@@ -20,7 +20,7 @@ function Footer() {
                         </ul>
                     </div>
 
-                    <section className={styles.contatct}>
+                    <section className={styles.contact}>
                         <div className={styles.phone}>
                             <img src="./src/assets/images/icon-phone.svg" alt="icon-phone" />
                             <p>+1-543-123-4567</p>
