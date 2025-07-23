@@ -5,7 +5,7 @@ Essa é a solução do [Fylo dark theme landing page challenge on Frontend Mento
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Preview](#preview)
   - [Links](#links)
 - [Processo](#processo)
   - [Construído Com](#construido-com)
@@ -16,7 +16,7 @@ Essa é a solução do [Fylo dark theme landing page challenge on Frontend Mento
 
 ## Overview
 
-### Screenshot
+### Preview
 
 ![](./src/assets/images/fylo-dark-theme.gif)
 
