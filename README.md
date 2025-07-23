@@ -18,7 +18,7 @@ Essa é a solução do [Fylo dark theme landing page challenge on Frontend Mento
 
 ### Screenshot
 
-![](./src/assets/images/fyloLandingPage.jpg)
+![](./src/assets/images/fylo-dark-theme.gif)
 
 ### Links
 
