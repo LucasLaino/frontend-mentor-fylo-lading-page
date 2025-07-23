@@ -1,9 +1,10 @@
 import styles from './Header.module.css'
+import logo from '../../assets/images/logo.svg'
 
 function Header() {
   return (
     <header className={styles.header}>
-      <img src="./src/assets/images/logo.svg" alt="logo-fylo" className={styles.logo}/>
+      <img src={logo} alt="logo-fylo" className={styles.logo}/>
       <nav>
         <ul className={styles.nav}>
           <li><a className={styles.navOptions} href="#">Features</a></li>

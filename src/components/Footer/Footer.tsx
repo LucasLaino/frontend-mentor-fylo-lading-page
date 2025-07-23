@@ -1,17 +1,21 @@
 import styles from './Footer.module.css'
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
+import logo from '../../assets/images/logo.svg'
+import iconLocation from '../../assets/images/icon-location.svg'
+import iconPhone from '../../assets/images/icon-phone.svg'
+import iconEmail from '../../assets/images/icon-email.svg'
 
 function Footer() {
     return (
         <>
             <footer className={styles.footer}>
-                <img src="./src/assets/images/logo.svg" alt="logo" className={styles.logo} />
+                <img src={logo} alt="logo" className={styles.logo} />
 
                 <section className={styles.footerInfos}>
                     <div className={styles.location}>
                         <ul>
                             <li>
-                                <img src="./src/assets/images/icon-location.svg" alt="icon-location" className={styles.iconLocation} />
+                                <img src={iconLocation} alt="icon-location" className={styles.iconLocation} />
                             </li>
                             <li>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -22,12 +26,12 @@ function Footer() {
 
                     <section className={styles.contact}>
                         <div className={styles.phone}>
-                            <img src="./src/assets/images/icon-phone.svg" alt="icon-phone" />
+                            <img src={iconPhone} alt="icon-phone" />
                             <p>+1-543-123-4567</p>
                         </div>
 
                         <div className={styles.email}>
-                            <img src="./src/assets/images/icon-email.svg" alt="icon-email" />
+                            <img src={iconEmail} alt="icon-email" />
                             <p>example@fylo.com</p>
                         </div>
                     </section>

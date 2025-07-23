@@ -1,11 +1,12 @@
 import styles from './CommentsSection.module.css'
 import { Card } from '../Card/Card'
 import { cardsInfo } from '../../data/cards-info'
+import bgQuotes from '../../assets/images/bg-quotes.png'
 
 function CommentsSection() {
     return (
         <section className={styles.commentsMainSection}>
-            <img src="./src/assets/images/bg-quotes.png" alt="bg-quotes" className={styles.bgQuotes} />
+            <img src={bgQuotes} alt="bg-quotes" className={styles.bgQuotes} />
 
             <section className={styles.commentsSection}>
                 {

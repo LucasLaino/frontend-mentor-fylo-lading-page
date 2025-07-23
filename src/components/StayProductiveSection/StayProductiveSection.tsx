@@ -1,9 +1,10 @@
 import styles from './StayProductiveSection.module.css'
+import illustrationStayProductive from '../../assets/images/illustration-stay-productive.png'
 
 function StayProductiveSection() {
     return (
         <section className={styles.StayProductiveSection}>
-            <img src="./src/assets/images/illustration-stay-productive.png" alt="illustration-stay-productive" className={styles.illustrationStayProductive}/>
+            <img src={illustrationStayProductive} alt="illustration-stay-productive" className={styles.illustrationStayProductive}/>
 
             <div className={styles.StayProductiveInfos}>
                 <h2 className={styles.StayProductiveTitle}>Stay Productive, Wherever you are</h2>
