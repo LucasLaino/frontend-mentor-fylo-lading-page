@@ -33,7 +33,11 @@
     text-align: center;
 }
 
-@media (min-width: 360px) and (max-width: 430px) {   
+@media (min-width: 360px) and (max-width: 440px) {   
+    .GetAccessSecion {
+        padding: 150px 0 0 0;
+    }
+
     .ContainerGetAccess {
         max-width: 330px;
     }
