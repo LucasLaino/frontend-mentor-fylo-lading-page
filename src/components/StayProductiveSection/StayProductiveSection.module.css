@@ -41,7 +41,7 @@
     }
 }
 
-@media (min-width: 360px) and (max-width: 430px) {   
+@media (min-width: 360px) and (max-width: 440px) {   
     .StayProductiveSection {
         flex-direction: column;
     }
@@ -61,7 +61,7 @@
     }
 }
 
-@media (min-width: 525px) and (max-width: 820px) {
+@media (min-width: 525px) and (max-width: 900px) {
     .StayProductiveSection {
         flex-direction: column;
     }
@@ -81,7 +81,7 @@
     }
 }
 
-@media (min-width: 1100px) and (max-width: 1200px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
     .StayProductiveSection {
         padding: 150px 50px;
     }
